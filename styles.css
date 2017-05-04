@@ -1,0 +1,32 @@
+html {
+	min-height: 100%;
+	background: url("back.jpg") top left/cover no-repeat;
+	display: flex;
+}
+body {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.key {
+	color: #fff;
+	padding: 10px 20px;
+	border: 2px solid #B21500;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(178, 21, 0, 0.1);
+	font-size: 20px;
+	font-family: cursive;
+	transition: all 0.2s;
+}
+.playing {
+	border: 2px solid #FDEF11;
+	box-shadow: 0 0 10px #FDEF11;
+	transform: scale(1.1);
+}
